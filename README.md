@@ -9,6 +9,7 @@
     <img alt="课程关卡" src="https://img.shields.io/badge/课程-22_关-16A34A?style=flat-square">
     <img alt="在线练习" src="https://img.shields.io/badge/在线练习-无需安装-9333EA?style=flat-square">
   </p>
+  <p><a href="https://dgwfpga.cn"><strong>进入在线平台 → dgwfpga.cn</strong></a></p>
 </div>
 
 ![地瓜丸的 FPGA 教学平台首页](assets/screenshots/home.png)
@@ -56,9 +57,11 @@
 
 ## 如何进入平台
 
-正式公开地址正在准备中。上线后，唯一入口会更新在本页顶部；使用浏览器打开即可，无需从 GitHub 下载或安装源码。
+正式公开地址：[https://dgwfpga.cn](https://dgwfpga.cn)
 
-> 建议先收藏本仓库，避免错过正式入口。别等到真正做项目时，才发现自己会写语法，却还不会设计电路。
+打开浏览器即可开始练习，无需从 GitHub 下载源码，也无需在电脑上安装开发工具。
+
+> 别等到真正做项目时，才发现自己会写语法，却还不会设计电路。现在就从第一颗 LED 开始，把代码、电路与现象真正连起来。
 
 ---
 
