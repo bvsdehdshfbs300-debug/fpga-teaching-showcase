@@ -6,7 +6,7 @@
   <p>
     <img alt="FPGA" src="https://img.shields.io/badge/FPGA-从零开始-111111?style=flat-square">
     <img alt="Verilog" src="https://img.shields.io/badge/Verilog-边写边懂-2563EB?style=flat-square">
-    <img alt="课程关卡" src="https://img.shields.io/badge/课程-22_关-16A34A?style=flat-square">
+    <img alt="课程关卡" src="https://img.shields.io/badge/课程-26_关-16A34A?style=flat-square">
     <img alt="在线练习" src="https://img.shields.io/badge/在线练习-无需安装-9333EA?style=flat-square">
   </p>
   <p><a href="https://dgwfpga.cn"><strong>进入在线平台 → dgwfpga.cn</strong></a></p>
@@ -33,9 +33,9 @@
 
 ![FPGA 课程选关界面](assets/screenshots/levels.png)
 
-课程目前包含 **22 个可练习关卡**，从点亮 LED 开始，逐步进入：
+课程目前包含 **26 个可练习关卡**，从点亮 LED 开始，逐步进入：
 
-`组合逻辑` · `时钟与计数` · `状态机` · `PWM` · `UART` · `I²C` · `显示时序` · `FIFO / ROM / RAM` · `SPI / SD` · `以太网与 UDP`
+`组合逻辑` · `时钟与计数` · `状态机` · `PWM` · `UART` · `I²C` · `显示时序` · `FIFO / ROM / RAM` · `SPI / SD` · `以太网与 UDP` · `高速数据流`
 
 每一关都尽量回答三个问题：**你看到了什么？为什么会这样？下一步该改哪里？**
 
@@ -50,6 +50,12 @@
 新的时间窗口支持放大、缩小、前后移动和一键适配。面对数十万次时钟跳变，全局视图会明确呈现高频活动；继续放大，则可以检查真实的纳秒级方波和边沿，不再把被压缩的数据误画成一条“没有变化”的直线。
 
 普通计数器或状态信号过于密集时，可以在游标附近打开“精细窗口”。平台会重新执行同一段设计，只记录这一小段未经抽样的真实变化，再随时返回完整总览。游标、跳变导航和 CSV 导出也会跟随当前时间窗口，让波形不只是运行后的装饰，而是定位时序问题的工作台。
+
+## 3.0 高速数据流已上线
+
+新增四个连续关卡：Ready / Valid 握手、Skid Buffer、双时钟异步 FIFO 与流式 CRC32。学习者会从“哪一拍才算传输成功”开始，逐步处理下游停顿、急停缓存、125 MHz 与 100 MHz 两个时钟域之间的数据传递，以及每拍一个字节的 CRC32 校验。
+
+这组课程聚焦数字逻辑层的流接口与跨时钟设计。异步 FIFO 使用两路真实仿真时钟、格雷码指针和两级同步器；每关均可运行代码、查看波形并接受逐时刻判题。
 
 ## 先看一节公开课
 
