@@ -9,9 +9,8 @@
     <img alt="无需安装开发工具" src="https://img.shields.io/badge/浏览器打开-无需安装-9333EA?style=flat-square">
   </p>
   <p>
-    <a href="https://dgwfpga.cn/"><img alt="累计访问数" src="https://dgwfpga.cn/api/community/visits-badge.svg?v=2"></a>
+    <a href="https://dgwfpga.cn/"><img alt="累计访问数" src="https://dgwfpga.cn/api/community/visits-badge.svg?v=3"></a>
   </p>
-  <p><sub>统计口径：站主提供的 8,000 次历史访问基数＋统计上线后的访问记录。同一浏览器 30 分钟内访问去重，学习人数单独统计。徽章自动取数，受缓存影响可能延迟。</sub></p>
   <p><a href="https://dgwfpga.cn/"><strong>进入平台 → dgwfpga.cn</strong></a> · <a href="https://dgwfpga.cn/practice/"><strong>直接开始练习</strong></a></p>
   <p><a href="#先看看实际操作">功能演示</a> · <a href="docs/QUICKSTART.md">新手指南</a> · <a href="docs/FAQ.md">常见问题</a> · <a href="docs/COURSES.md">学习路线</a> · <a href="CHANGELOG.md">更新记录</a></p>
 </div>
