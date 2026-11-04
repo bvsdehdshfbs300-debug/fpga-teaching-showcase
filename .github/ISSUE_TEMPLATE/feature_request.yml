@@ -1,0 +1,23 @@
+name: 功能建议
+description: 告诉地瓜丸，你学到哪里遇到了什么不方便
+title: "[建议] "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你遇到了什么困难？
+      description: 描述具体学习场景，比只说一个功能名字更有帮助。
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 你希望怎样改进？
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: 现在怎样解决？还有什么补充？
+      description: 可选；请不要提交个人隐私或密钥。

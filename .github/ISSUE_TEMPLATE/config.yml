@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 先阅读常见问题
+    url: https://github.com/bvsdehdshfbs300-debug/fpga-teaching-showcase/blob/main/docs/FAQ.md
+    about: 进度保存、灯不亮、波形与访问问题
+  - name: 打开在线练习站
+    url: https://dgwfpga.cn/practice/
+    about: 免费在线练习；QQ群 1125010630
