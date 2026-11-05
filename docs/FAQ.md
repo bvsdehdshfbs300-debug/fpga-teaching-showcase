@@ -42,10 +42,6 @@
 
 手机可以访问和查看页面。代码输入、图形连线和精细波形操作更适合电脑；具体流畅度取决于浏览器、设备和网络。
 
-## 网站恢复后，作者电脑还得一直开机吗？
-
-目前正式站已部署到云服务器，不依赖作者个人电脑保持开机。正式地址保持为 https://dgwfpga.cn/ 。
-
 ## 怎样提出问题或建议？
 
 - [问题反馈](https://github.com/bvsdehdshfbs300-debug/fpga-teaching-showcase/issues/new?template=bug_report.yml)：关卡、步骤、期望与实际结果。
