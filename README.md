@@ -5,7 +5,8 @@
   <p>写代码、连引脚、看波形，让电路的变化有迹可循。</p>
   <p>
     <img alt="免费在线练习" src="https://img.shields.io/badge/在线练习-免费-2563EB?style=flat-square">
-    <img alt="26 个可练习关卡" src="https://img.shields.io/badge/课程-26_关_·_7_章-16A34A?style=flat-square">
+    <img alt="31 个可练习关卡" src="https://img.shields.io/badge/课程-31_关_·_8_章-16A34A?style=flat-square">
+    <img alt="4.1 外设实验室" src="https://img.shields.io/badge/版本-4.1_外设实验室-0F766E?style=flat-square">
     <img alt="无需安装开发工具" src="https://img.shields.io/badge/浏览器打开-无需安装-9333EA?style=flat-square">
   </p>
   <p>
@@ -15,7 +16,27 @@
   <p><a href="#先看看实际操作">功能演示</a> · <a href="docs/QUICKSTART.md">新手指南</a> · <a href="docs/FAQ.md">常见问题</a> · <a href="docs/COURSES.md">学习路线</a> · <a href="CHANGELOG.md">更新记录</a></p>
 </div>
 
-![平台正式首页，底部含 ICP 备案号](assets/screenshots/home-current.webp)
+![4.1 外设实验室已上线，首页可查看五项实验与完整更新说明](assets/screenshots/home-4.1.png)
+
+## 4.1 · 把协议接到看得见的外设上
+
+**现在是 8 章、31 关。** 新增五项独立实验：采样、输出、寄存器通信、引脚方向和主机读写，各自有明确的输入、任务与可观察结果。
+
+| 新实验 | 这次要看懂什么 | 直接进入 |
+| --- | --- | --- |
+| ADC 采样 | 接收 10 位采样、计数与峰值，对照输入和采样曲线 | [第 27 关](https://dgwfpga.cn/practice/#/level/L27_adc_capture) |
+| DAC 波形 | 用数字码生成锯齿、三角、方波与直流，观察输出变化 | [第 28 关](https://dgwfpga.cn/practice/#/level/L28_dac_wave) |
+| SPI 寄存器 | 配合片选与时钟发送命令、读回芯片 ID，查看事务解码 | [第 29 关](https://dgwfpga.cn/practice/#/level/L29_spi_register) |
+| GPIO 双向引脚 | 控制四路输入输出方向，对照开关、寄存器与引脚电平 | [第 30 关](https://dgwfpga.cn/practice/#/level/L30_gpio_bus) |
+| PCIe BAR 读写 | 处理单 DWORD 读写、字节使能、Tag、完成响应与下游暂停 | [第 31 关](https://dgwfpga.cn/practice/#/level/L31_pcie_bar) |
+
+所有关卡共用完整硬件桌面：AD/DA 模块、SPI、GPIO、PCIe 卡和主机测试座都能看到，八个视角可以快速定位。接线落到具体针脚；点击元件或接口，就能查供电、方向、针号与接线关联。
+
+![4.1 实际工作台：点击板上接口打开 ADA107 逐针手册，目录纵向滚动，深色背景上的文字清晰可读](assets/screenshots/peripheral-workbench-4.1.png)
+
+手册支持按位号、名称和引脚搜索，电脑目录与正文分别上下滚动，手机自动上下排列。外设观察台与波形游标同步；SPI、PCIe 可结合解码结果逐拍分析。
+
+PCIe 这一关练习 BAR/TLP 事务接口，不包含物理层收发器和链路训练。[查看 4.1 更新详情 →](CHANGELOG.md#2026-11-06--41-外设实验室)
 
 ## 先看看实际操作
 
@@ -56,7 +77,7 @@
 
 </details>
 
-操作节选取自 2026-10-25 版本，当前课程已扩充至 26 关。动图只展示各自覆盖的功能，完整交互请以在线平台为准。[查看功能说明 →](docs/FEATURES.md)
+操作节选取自 2026-10-25 版本，当前课程已扩充至 31 关。上方 4.1 工作台截图为新版本，其余动图保留原操作节选；完整交互请以在线平台为准。[查看功能说明 →](docs/FEATURES.md)
 
 ## 第一次来，从这里开始
 
@@ -69,7 +90,7 @@
 
 ## 一条逐步深入的学习路线
 
-![课程选关界面；此图为早期版本，当前共 26 关](assets/screenshots/levels.png)
+![早期课程选关界面；当前已扩充为 31 关](assets/screenshots/levels.png)
 
 | 学习阶段 | 你会动手练什么 | 希望看懂什么 |
 | --- | --- | --- |
@@ -79,8 +100,9 @@
 | 片上资源与综合 | 同步 FIFO、按键到 UART | 数据暂存、模块协作和时序配合 |
 | 存储与网络协议 | ROM、RAM、SPI/SD、校验和、ARP、ICMP、UDP | 存取顺序、帧结构和收发行为 |
 | 高速数据流 | Ready/Valid、Skid Buffer、异步 FIFO、CRC32 | 握手、反压、跨时钟与逐拍校验 |
+| 外设实验室 | ADC、DAC、SPI、GPIO、PCIe BAR | 采样与输出、寄存器通信、引脚方向与主机事务 |
 
-课程为 **7 章、26 关**。上表按学习主题归纳，不等同于章节数量。[查看各关目标与推荐顺序 →](docs/COURSES.md)
+课程为 **8 章、31 关**。上表按学习主题归纳，不等同于章节数量。[查看各关目标与推荐顺序 →](docs/COURSES.md)
 
 ## 错在哪里，要能找到证据
 
@@ -110,6 +132,7 @@ QQ群：**1125010630**
 
 ## 持续更新
 
+- **4.1 · 2026-11-06**：新增 ADC、DAC、SPI、GPIO、PCIe 五关，完整硬件桌面、逐针接线与手册；优化手册纵向浏览和文字对比度，首页历史公告默认折叠。
 - **2026-11-04**：备案通过，正式域名恢复，迁至云服务器直连，启用 HTTPS 与自动续期。
 - **3.0**：新增 Ready/Valid、Skid Buffer、双时钟异步 FIFO、流式 CRC32。
 - **2.2**：平台脉搏、匿名学习动态、给地瓜丸充电。
